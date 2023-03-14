@@ -23,17 +23,23 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-User enters length of password, then enters the parameters and then the password gets rendered. If a parameter isn't adequate, 
-then it gets a return
-
 ![alt text](Develop/assets/password-gen1.png)
 
-![alt text](Develop/assets/password-gen2.png)
+User enters length of password. If the number entered is not a number, then return is passed into the function, 
+![alt text](Develop/assets/password-gen4.png)
+
+![alt text](Develop/assets/password-gen5.png)
+
+ If the number entered is a number, then user is allowed to enter in 
+ a set of parameters (lowercase, uppercase, numerical characters, special characters) for their password. 
+ 
+ If nothing is passed in, then return is passed, but if at least one thing is passed, then the password is rendered on the screen
+
+![alt text](Develop/assets/password-gen6.png)
 
 ![alt text](Develop/assets/password-gen3.png)
+
+![alt text](Develop/assets/password-gen7.png)
 
 
 ## Credits
