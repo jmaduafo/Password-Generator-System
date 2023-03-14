@@ -44,6 +44,6 @@ User enters length of password. If the number entered is not a number, then retu
 
 ## Credits
 
-Developed by:
+Developed by Xandromus:
 
 https://github.com/coding-boot-camp/friendly-parakeet
